@@ -78,10 +78,3 @@ src/
 - `WeatherChart.tsx`: Renders the temperature trend chart.
 - `AlertSystem.tsx`: Handles and displays weather alerts.
 
-## Future Improvements
-
-- Implement user authentication for personalized settings.
-- Add more detailed weather information and forecasts.
-- Integrate with a backend service for data persistence and advanced analytics.
-- Implement unit and integration tests for better code reliability.
-
