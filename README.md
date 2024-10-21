@@ -26,10 +26,7 @@ Before you begin, ensure you have met the following requirements:
    npm install
    ```
 
-2. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
-   ```
-   VITE_OPENWEATHERMAP_API_KEY=your_api_key_here
-   ```
+2.I have left my Api key in the code so that its easy to run (please wait for a minute for the application to start)
 
 ## Running the Application
 
