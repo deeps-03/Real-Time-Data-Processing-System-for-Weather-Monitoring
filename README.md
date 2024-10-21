@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
    npm install
    ```
 
-2.I have left my Api key in the code so that its easy to run (please wait for a minute for the application to start)
+2. I have left my Api key in the code so that its easy to run.
 
 ## Running the Application
 
@@ -36,7 +36,7 @@ To run the application in development mode:
 npm run dev
 ```
 
-This will start the development server. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+This will start the development server. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.(please wait for a minute for the application to start)
 
 ## Building for Production
 
