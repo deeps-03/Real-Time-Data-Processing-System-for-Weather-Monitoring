@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  weather-app-dev:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=development
+      - VITE_OPENWEATHERMAP_API_KEY=729258e8f0045e4e9b7d2468326ba699
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev
