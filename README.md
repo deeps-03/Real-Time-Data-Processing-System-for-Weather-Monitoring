@@ -26,7 +26,6 @@ Before you begin, ensure you have met the following requirements:
    npm install
    ```
 
-2. I have left my Api key in the code so that its easy to run.
 
 ## Running the Application
 
@@ -36,7 +35,7 @@ To run the application in development mode:
 npm run dev
 ```
 
-This will start the development server. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.(please wait for a minute for the application to start)
+
 
 ## Building for Production
 
@@ -47,6 +46,10 @@ npm run build
 ```
 
 This will create a `dist` folder with the production-ready files.
+
+## Docker Hub Link
+
+Link: https://hub.docker.com/repository/docker/deepaksuresh03/real-time-data-processing-system-for-weather-monitoring/general
 
 ## Design Choices
 
