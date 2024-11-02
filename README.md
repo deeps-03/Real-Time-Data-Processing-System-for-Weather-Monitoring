@@ -18,6 +18,12 @@ Before you begin, ensure you have met the following requirements:
 - npm (v6 or later)
 - An OpenWeatherMap API key
 
+
+## Docker Hub Link
+
+Link: https://hub.docker.com/repository/docker/deepaksuresh03/real-time-data-processing-system-for-weather-monitoring/general
+
+
 ## Installation
 
 
@@ -47,9 +53,6 @@ npm run build
 
 This will create a `dist` folder with the production-ready files.
 
-## Docker Hub Link
-
-Link: https://hub.docker.com/repository/docker/deepaksuresh03/real-time-data-processing-system-for-weather-monitoring/general
 
 ## Design Choices
 
