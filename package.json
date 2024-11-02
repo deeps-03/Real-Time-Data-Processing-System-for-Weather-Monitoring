@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+  {
+    "scripts": {
+      "dev": "vite --port 4000",
+      "build": "tsc && vite build",
+      "preview": "vite preview --port 4000",
+      "docker:dev": "docker-compose up",
+      "docker:build": "docker-compose up --build",
+      "docker:down": "docker-compose down"
+    }
+  }
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.0",
