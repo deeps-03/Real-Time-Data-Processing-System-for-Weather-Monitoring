@@ -50,10 +50,10 @@ Link: https://hub.docker.com/repository/docker/deepaksuresh03/real-time-data-pro
 ## Installation
 
 
-1. Install the dependencies:
-   ```
+Install the dependencies:
+ ```
    npm install
-   ```
+ ```
 
 
 ## Running the Application
