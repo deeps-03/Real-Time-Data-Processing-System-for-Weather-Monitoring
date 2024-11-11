@@ -19,6 +19,29 @@ Before you begin, ensure you have met the following requirements:
 - An OpenWeatherMap API key
 
 
+## Docker Usage
+
+To run the application using Docker, follow these steps:
+
+1. **Build the Docker image and Start the application:**:
+```bash
+   docker-compose up --build -d  
+```
+
+2. Access the application: Open your web browser and go to http://localhost:4000/ to access the UI.
+
+
+3. **Stop the Docker container:**:
+```bash
+docker-compose down
+```
+
+4. **To rebuild and restart the application:**:
+```bash
+docker-compose up --build -d
+```
+
+
 ## Docker Hub Link
 
 Link: https://hub.docker.com/repository/docker/deepaksuresh03/real-time-data-processing-system-for-weather-monitoring/general
