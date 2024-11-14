@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 - Node.js (v14 or later)
 - npm (v6 or later)
 - An OpenWeatherMap API key (you can use the API key that's already present)
-
+   - OpenWeatherMap API key should be entered in WeatherDashboard.tsx and docker-compose.yml
 
 ## Docker Usage
 

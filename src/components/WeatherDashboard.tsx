@@ -6,8 +6,8 @@ import { Sun, CloudRain, Snowflake, Wind } from 'lucide-react';
 import WeatherChart from './WeatherChart';
 import AlertSystem from './AlertSystem';
 
-const API_KEY = import.meta.env.VITE_OPENWEATHERMAP_API_KEY || '729258e8f0045e4e9b7d2468326ba699';
-const CITIES = ['Delhi', 'Mumbai', 'Chennai', 'Bangalore', 'Kolkata', 'Hyderabad'];
+const API_KEY = import.meta.env.VITE_OPENWEATHERMAP_API_KEY || '729258e8f0045e4e9b7d2468326ba699'; // OpenWeatherMap API key
+const CITIES = ['Chennai', 'Bangalore', 'Kolkata', 'Mumbai', 'Delhi', 'Hyderabad'];
 
 interface WeatherData {
   city: string;
